@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  api:
+    build: ./api
+    restart: always
+    ports:
+      - 8000:8000
+    volumes:
+      - ${APP_PATH_HOST}:${APP_PATH_CONTAINER}
+      - ${APP_PATH_CONTAINER}/node_modules
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+  app:
+    build: ./app
+    ports:
+      - 3000:3000

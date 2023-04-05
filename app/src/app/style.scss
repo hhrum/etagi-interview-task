@@ -1,0 +1,17 @@
+@import "shared/assets/styles";
+
+.app {
+  min-height: 100vh;
+
+  @include flexibleColumn();
+
+  &__header {
+
+  }
+
+  &__content {
+    flex: 1 0;
+
+    @include flexibleColumn();
+  }
+}
