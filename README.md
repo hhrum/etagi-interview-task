@@ -15,7 +15,7 @@ ____
 
 Репозиторий сделан, как вспомогательный, для удобного развёртывания с помощью `docker-compose`
 
-[Front-end](https://github.com/hhrum/etagi-test-task-front)
+[Front-end](https://github.com/hhrum/etagi-interview-task-front)
 
 [Back-end](https://github.com/hhrum/etagi-interview-task-back)
 
@@ -42,6 +42,6 @@ ____
 
 Подробную информацию о работе можно узнать на страницах репозиториев
 
-[Front-end](https://github.com/hhrum/etagi-test-task-front)
+[Front-end](https://github.com/hhrum/etagi-interview-task-front)
 
 [Back-end](https://github.com/hhrum/etagi-interview-task-back)
